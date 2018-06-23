@@ -1,26 +1,103 @@
 
 :root{
-    --bg: url("https://i.imgur.com/gfBqJZO.png");
-    --bgb: url("https://i.imgur.com/ETN767F.png");
+    --bg: url("https://i.imgur.com/VhLwBZT.jpg");
+    --bgb: url("https://i.imgur.com/eEjh83q.jpg");
     --dm: url("https://i.imgur.com/iBYLtyp.png");
     --color: 12, 12, 12;
-    --aero: 0.4;
+    --aero: 0.6;
+    --blue1: 3, 16, 51;
+    --blue2: 0, 8, 33;
 }
 
 
+/*Font*/
+@import url(//db.onlinewebfonts.com/c/cdc8c3de1e6bd5a9a67c6a001f9fedd0?family=Burbank+Big+Condensed);
 
-
-@import url('https://fonts.googleapis.com/css?family=Paytone+One');
-
-*{
-    font-family: 'Paytone One', sans-serif !important;
-    font-size: 10px;
+@font-face {font-family: "Burbank Big Condensed";
+    src: url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.eot");
+    src: url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.svg#Burbank Big Condensed") format("svg");
 }
 
+* {
+ font-family: Burbank Big Condensed !important;
+ font-size: 16px !important;
+ letter-spacing: 2px !important;
+ }
+
+
+
+/*Main*/
 .app {
-	background: var(--bg) !important;
+    background: var(--bg) !important;
     background-attachment: fixed !important;
     background-position: center !important;
+}
+
+
+/*Server*/
+.guilds-wrapper{
+    margin: 10px 10px 10px 10px;
+    background: linear-gradient(rgba(var(--blue1), var(--aero)), rgba(var(--blue1), var(--aero))), var(--bgb);
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.message-group .comment::before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: relative;
+    left: -20px;
+    top: 0px;
+    display: block;
+    transition: all 200ms ease;
+    border-style: solid;
+    border-width: 0 10px 10px 0;
+    border-color: transparent #2C2541 transparent transparent !important;
+
+}
+
+.messages-popout-wrap .comment::before {
+    left: -20px;
+    top: 0px;
+    margin: 10px 10px 10px 10px;
+    background: linear-gradient(rgba(var(--blue1), var(--aero)), rgba(var(--blue1), var(--aero))), var(--bgb);
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.message-group .comment {
+    margin: 10px 10px 10px 10px;
+    background: linear-gradient(rgba(var(--blue1), var(--aero)), rgba(var(--blue1), var(--aero))), var(--bgb);
+    background-attachment: fixed;
+    background-position: center;
+    padding: 0px 7px 10px 10px;
+}
+
+.container-1UB9sr, .container-2Thooq{
+    border-bottom: 2px solid #000821;
+}
+
+/*Title Bar*/
+.wordmark-2iDDfm > svg > path{
+    display: none !important;
+}
+
+.wordmark-2iDDfm{
+    background: url('https://i.imgur.com/pDroWH3.png') !important;
+    background-position: center !important;
+    height: 1%; 
+    width: 2%;
+    margin: 2px 0px 0px 4px;
+}
+
+.appMount-3VJmYg{
+    background-image: url('https://i.imgur.com/0zrnj1Q.png');
+    background-color: #000a2c;
 }
 
 .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, 
@@ -28,29 +105,36 @@
     background-color: transparent;
     border-color: transparent;
 }
+
 .channels-Ie2l6A {
-    background-color: rgba(0,0,0,0);
+    margin: 10px 10px 10px 10px;
+    background: linear-gradient(rgba(var(--blue1), var(--aero)), rgba(var(--blue1), var(--aero))), var(--bgb);
+    background-attachment: fixed;
+    background-position: center;
 }
+
 .container-PNkimc {
     background-color:  transparent;
 }
+
  /* fix not having a background image anymore */
 .layers-3iHuyZ, .layer-3QrUeG, .container-2lgZY8, .typing-2GQL18 {
   background: transparent !important;
 }
+
 /* optionally adjust background brightness (0: original image, 1: black) */
 .layers-3iHuyZ {
   background: rgba(0,0,0, 0.3) !important;
 }
+
 .container-2lgZY8 {
     background-color:  rgba(0,0,0,0);
 }
+
 .theme-dark .layer, .theme-dark .layers {
     background: transparent;
 }
-.guilds-wrapper {
-    background-color: transparent;
-}
+
 .theme-dark .chat form {
     background-color: transparent;
     box-shadow: none;
