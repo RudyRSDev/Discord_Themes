@@ -4,23 +4,21 @@
     --bgb: url("https://i.imgur.com/eEjh83q.jpg");
     --dm: url("https://i.imgur.com/iBYLtyp.png");
     --color: 12, 12, 12;
-    --aero: 0.6;
+    --aero: 0.7;
     --blue1: 3, 16, 51;
     --blue2: 0, 8, 33;
 }
 
 
 /*Font*/
+/* Fortnite Light Import */
+@import url(//db.onlinewebfonts.com/c/703617a01296c595b1daed4c5de1f6b7?family=Burbank+Big+Condensed);
+/* Fortnite Medium Import */
+@import url(//db.onlinewebfonts.com/c/831e1041c97169ac1d4dc3d161b235cc?family=Burbank+Big+Condensed);
+/* Fortnite Bold Import */
+@import url(//db.onlinewebfonts.com/c/800e985f75a5a56c2f7b4be502d286de?family=Burbank+Big+Condensed);
+/* Fortnite Black Import */
 @import url(//db.onlinewebfonts.com/c/cdc8c3de1e6bd5a9a67c6a001f9fedd0?family=Burbank+Big+Condensed);
-
-@font-face {font-family: "Burbank Big Condensed";
-    src: url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.eot");
-    src: url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.svg#Burbank Big Condensed") format("svg");
-}
 
 * {
  font-family: Burbank Big Condensed !important;
@@ -46,32 +44,35 @@
     background-position: center;
 }
 
+
+/*Messages*/
 .message-group .comment::before {
     content: "";
+    display: block;
     width: 0px;
     height: 0px;
     position: relative;
-    left: -20px;
+    left: -30px;
     top: 0px;
-    display: block;
-    transition: all 200ms ease;
-    border-style: solid;
-    border-width: 0 10px 10px 0;
-    border-color: transparent #2C2541 transparent transparent !important;
+    background-image: var(--bgb);
+    background-attachment: fixed;
+    background-position: center;
+    border-top: 20px solid rgba(var(--blue1), var(--aero));
+    border-left: 20px solid transparent;
+    clip-path: polygon(100% 0, 100% 100%, 100% 100%, 0 1%);
 
 }
+
 
 .messages-popout-wrap .comment::before {
     left: -20px;
     top: 0px;
-    margin: 10px 10px 10px 10px;
     background: linear-gradient(rgba(var(--blue1), var(--aero)), rgba(var(--blue1), var(--aero))), var(--bgb);
     background-attachment: fixed;
     background-position: center;
 }
 
 .message-group .comment {
-    margin: 10px 10px 10px 10px;
     background: linear-gradient(rgba(var(--blue1), var(--aero)), rgba(var(--blue1), var(--aero))), var(--bgb);
     background-attachment: fixed;
     background-position: center;

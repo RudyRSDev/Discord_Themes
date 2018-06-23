@@ -1,0 +1,44 @@
+/*Fortnite Font Import*/
+
+/* This is the Fortnite Bold Font */
+@font-face {
+    font-family: "Burbank Big Condensed Bold";
+    src: url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.eot");
+    src: url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.svg#Burbank Big Condensed") format("svg");
+}
+
+/* This is the Fortnite Light Font */
+@font-face {
+    font-family: "Burbank Big Condensed Light";
+    src: url("//db.onlinewebfonts.com/t/703617a01296c595b1daed4c5de1f6b7.eot");
+    src: url("//db.onlinewebfonts.com/t/703617a01296c595b1daed4c5de1f6b7.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/703617a01296c595b1daed4c5de1f6b7.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/703617a01296c595b1daed4c5de1f6b7.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/703617a01296c595b1daed4c5de1f6b7.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/703617a01296c595b1daed4c5de1f6b7.svg#Burbank Big Condensed") format("svg");
+}
+
+/* This is the Fortnite Medium Font */
+@font-face {font-family: "Burbank Big Condensed Medium";
+    src: url("//db.onlinewebfonts.com/t/831e1041c97169ac1d4dc3d161b235cc.eot");
+    src: url("//db.onlinewebfonts.com/t/831e1041c97169ac1d4dc3d161b235cc.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/831e1041c97169ac1d4dc3d161b235cc.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/831e1041c97169ac1d4dc3d161b235cc.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/831e1041c97169ac1d4dc3d161b235cc.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/831e1041c97169ac1d4dc3d161b235cc.svg#Burbank Big Condensed") format("svg");
+}
+
+
+/* This is the Fortnite Medium Font */
+@font-face {font-family: "Burbank Big Condensed";
+    src: url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.eot");
+    src: url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.svg#Burbank Big Condensed") format("svg");
+}
