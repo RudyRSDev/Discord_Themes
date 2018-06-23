@@ -9,19 +9,10 @@
     --blue2: 0, 8, 33;
 }
 
-
-/*Font*/
-/* Fortnite Light Import */
-@import url(//db.onlinewebfonts.com/c/703617a01296c595b1daed4c5de1f6b7?family=Burbank+Big+Condensed);
-/* Fortnite Medium Import */
-@import url(//db.onlinewebfonts.com/c/831e1041c97169ac1d4dc3d161b235cc?family=Burbank+Big+Condensed);
-/* Fortnite Bold Import */
-@import url(//db.onlinewebfonts.com/c/800e985f75a5a56c2f7b4be502d286de?family=Burbank+Big+Condensed);
-/* Fortnite Black Import */
-@import url(//db.onlinewebfonts.com/c/cdc8c3de1e6bd5a9a67c6a001f9fedd0?family=Burbank+Big+Condensed);
+@import url("https://raw.githubusercontent.com/RudySPG/Discord_Themes/master/Fortnite/base/source_files/fortnite_fonts.css")
 
 * {
- font-family: Burbank Big Condensed !important;
+ font-family: Burbank Big Condensed Light !important;
  font-size: 16px !important;
  letter-spacing: 2px !important;
  }
