@@ -55,7 +55,7 @@
 * {
  font-family: Burbank Big Condensed Medium !important;
  font-size: 18px !important;
- letter-spacing: 2.5px !important;
+ letter-spacing: 1.5px !important;
  }
 
 
@@ -119,17 +119,22 @@
     display: none !important;
 }
 
-.wordmark-2iDDfm{
-    background: url('https://i.imgur.com/pDroWH3.png') !important;
+.wordmark-2iDDfm {
+    background-image: url('https://i.imgur.com/pDroWH3.png') !important;
     background-position: center !important;
-    height: 1%; 
-    width: 2%;
-    margin: 2px 0px 0px 4px;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    margin: 0px 0px 0px 4px;
+    width: 37px; /*55px*/
+    height: 16px; /*default*/
 }
 
 .appMount-3VJmYg{
     background-image: url('https://i.imgur.com/0zrnj1Q.png');
     background-color: #000a2c;
+    background-position: center !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
 }
 
 .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, 
@@ -189,7 +194,10 @@
     box-shadow: none;
 }
 .theme-dark #friends {
-    background-color: transparent;
+    margin: 10px 10px 10px 10px;
+    background: linear-gradient(rgba(var(--blue1), var(--aero)), rgba(var(--blue1), var(--aero))), var(--bgb);
+    background-attachment: fixed;
+    background-position: center;
 }
 .theme-dark .headerBar-UHpsPw {
     background: transparent;
@@ -202,4 +210,38 @@
 }
 .theme-dark .ui-standard-sidebar-view {
     background: transparent;
+}
+
+/*Message Profile pictures*/
+
+.message-group .avatar-large {
+   width           : 40px !important;
+   height          : 40px !important;
+   border          : 3px solid #ed8745;
+   border-radius   : 0 !important;
+   background-size : cover !important;
+   transition      : all .9s ease !important;
+   opacity         : 1 !important;
+   margin-bottom: 12px;
+   margin-left: -1.5px;
+   margin-top: -3px;
+   margin-right: 30px;
+}
+
+.message-group .avatar-large:hover {
+   width           : 80px !important;
+   height          : 80px !important;
+   border: 3px solid #ede600;
+}
+
+.
+/* auto hide dock
+.guilds-wrapper {z-index:1;position:absolute;transform:translatex(-91%);top:70px;bottom:53px;transition:.4s;background:transparent;box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5) inset}
+.guilds-wrapper:hover {transform:inherit;transition:.4s;}*/
+
+.theme-dark .activityFeed-28jde9{
+    margin: 10px 10px 10px 10px;
+    background: linear-gradient(rgba(var(--blue1), var(--aero)), rgba(var(--blue1), var(--aero))), var(--bgb);
+    background-attachment: fixed;
+    background-position: center;
 }
