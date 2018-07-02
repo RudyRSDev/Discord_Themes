@@ -13,50 +13,50 @@
 @import url(https://rawgit.com/RudySPG/Discord_Themes/master/Fortnite/base/source_files/fortnite_fonts.css);
 /* This is the Fortnite Bold Font */
 @font-face {font-family: "Burbank Big Condensed Bold";
-    src: url("//db.onlinewebfonts.com/t/800e985f75a5a56c2f7b4be502d286de.eot");
-    src: url("//db.onlinewebfonts.com/t/800e985f75a5a56c2f7b4be502d286de.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/800e985f75a5a56c2f7b4be502d286de.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/800e985f75a5a56c2f7b4be502d286de.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/800e985f75a5a56c2f7b4be502d286de.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/800e985f75a5a56c2f7b4be502d286de.svg#Burbank Big Condensed") format("svg");
+src: url("//db.onlinewebfonts.com/t/800e985f75a5a56c2f7b4be502d286de.eot");
+src: url("//db.onlinewebfonts.com/t/800e985f75a5a56c2f7b4be502d286de.eot?#iefix") format("embedded-opentype"),
+url("//db.onlinewebfonts.com/t/800e985f75a5a56c2f7b4be502d286de.woff2") format("woff2"),
+url("//db.onlinewebfonts.com/t/800e985f75a5a56c2f7b4be502d286de.woff") format("woff"),
+url("//db.onlinewebfonts.com/t/800e985f75a5a56c2f7b4be502d286de.ttf") format("truetype"),
+url("//db.onlinewebfonts.com/t/800e985f75a5a56c2f7b4be502d286de.svg#Burbank Big Condensed") format("svg");
 }
 
 /* This is the Fortnite Light Font */
 @font-face {font-family: "Burbank Big Condensed Light";
-    src: url("//db.onlinewebfonts.com/t/703617a01296c595b1daed4c5de1f6b7.eot");
-    src: url("//db.onlinewebfonts.com/t/703617a01296c595b1daed4c5de1f6b7.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/703617a01296c595b1daed4c5de1f6b7.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/703617a01296c595b1daed4c5de1f6b7.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/703617a01296c595b1daed4c5de1f6b7.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/703617a01296c595b1daed4c5de1f6b7.svg#Burbank Big Condensed") format("svg");
+src: url("//db.onlinewebfonts.com/t/703617a01296c595b1daed4c5de1f6b7.eot");
+src: url("//db.onlinewebfonts.com/t/703617a01296c595b1daed4c5de1f6b7.eot?#iefix") format("embedded-opentype"),
+url("//db.onlinewebfonts.com/t/703617a01296c595b1daed4c5de1f6b7.woff2") format("woff2"),
+url("//db.onlinewebfonts.com/t/703617a01296c595b1daed4c5de1f6b7.woff") format("woff"),
+url("//db.onlinewebfonts.com/t/703617a01296c595b1daed4c5de1f6b7.ttf") format("truetype"),
+url("//db.onlinewebfonts.com/t/703617a01296c595b1daed4c5de1f6b7.svg#Burbank Big Condensed") format("svg");
 }
 
 /* This is the Fortnite Medium Font */
 @font-face {font-family: "Burbank Big Condensed Medium";
-    src: url("//db.onlinewebfonts.com/t/831e1041c97169ac1d4dc3d161b235cc.eot");
-    src: url("//db.onlinewebfonts.com/t/831e1041c97169ac1d4dc3d161b235cc.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/831e1041c97169ac1d4dc3d161b235cc.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/831e1041c97169ac1d4dc3d161b235cc.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/831e1041c97169ac1d4dc3d161b235cc.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/831e1041c97169ac1d4dc3d161b235cc.svg#Burbank Big Condensed") format("svg");
+src: url("//db.onlinewebfonts.com/t/831e1041c97169ac1d4dc3d161b235cc.eot");
+src: url("//db.onlinewebfonts.com/t/831e1041c97169ac1d4dc3d161b235cc.eot?#iefix") format("embedded-opentype"),
+url("//db.onlinewebfonts.com/t/831e1041c97169ac1d4dc3d161b235cc.woff2") format("woff2"),
+url("//db.onlinewebfonts.com/t/831e1041c97169ac1d4dc3d161b235cc.woff") format("woff"),
+url("//db.onlinewebfonts.com/t/831e1041c97169ac1d4dc3d161b235cc.ttf") format("truetype"),
+url("//db.onlinewebfonts.com/t/831e1041c97169ac1d4dc3d161b235cc.svg#Burbank Big Condensed") format("svg");
 }
 
 
 /* This is the Fortnite Black Font */
 @font-face {font-family: "Burbank Big Condensed Black";
-    src: url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.eot");
-    src: url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.svg#Burbank Big Condensed") format("svg");
+src: url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.eot");
+src: url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.eot?#iefix") format("embedded-opentype"),
+url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.woff2") format("woff2"),
+url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.woff") format("woff"),
+url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.ttf") format("truetype"),
+url("//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.svg#Burbank Big Condensed") format("svg");
 }
 
 * {
- font-family: Burbank Big Condensed Medium !important;
- font-size: 18px !important;
- letter-spacing: 1.5px !important;
- }
+   font-family: Burbank Big Condensed Medium !important;
+   font-size: 18px !important;
+   letter-spacing: 1.5px !important;
+}
 
 
 /*Main*/
@@ -90,9 +90,6 @@
     background-attachment: fixed;
     background-position: center;
     clip-path: polygon(100% 0, 100% 100%, 100% 100%, 0 1%);
-}
-    
-
 }
 
 
@@ -155,7 +152,7 @@
     background-color:  transparent;
 }
 
- /* fix not having a background image anymore */
+/* fix not having a background image anymore */
 .layers-3iHuyZ, .layer-3QrUeG, .container-2lgZY8, .typing-2GQL18 {
   background: transparent !important;
 }
@@ -216,26 +213,33 @@
 /*Message Profile pictures*/
 
 .message-group .avatar-large {
-   width           : 40px !important;
-   height          : 40px !important;
-   border          : 3px solid #ed8745;
-   border-radius   : 0 !important;
-   background-size : cover !important;
-   transition      : all .4s ease !important;
-   opacity         : 1 !important;
-   margin-bottom: 12px;
-   padding-left: 1px;
-   margin-left: -2px;
-   margin-top: -3px;
-   margin-right: 30px;
+    margin-right: 30px;
+    margin-top: 0px;
+    transition: all .4s ease !important;
 }
 
 .message-group .avatar-large:hover {
-   width           : 60px !important;
-   height          : 60px !important;
-   border: 3px solid #ede600;
+    width           : 60px !important;
+    height          : 60px !important;
+    opacity         : 1 !important;
 }
 
+.message-group .da-avatarLarge > .avatar-large {
+    width           : 40px !important;
+    height          : 40px !important;
+    border          : 3px solid #ed8745;
+    border-radius   : 0 !important;
+    background-size : cover !important;
+    transition      : all .4s ease !important;
+    opacity         : 1 !important;
+}
+
+.message-group .da-avatarLarge > .avatar-large:hover{
+    width           : 60px !important;
+    height          : 60px !important;
+    border: 3px solid #ede600;
+    opacity         : 1 !important;
+}
 
 /* auto hide dock
 .guilds-wrapper {z-index:1;position:absolute;transform:translatex(-91%);top:70px;bottom:53px;transition:.4s;background:transparent;box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5) inset}
@@ -265,4 +269,79 @@
     background-image: url("https://i.imgur.com/elChOhu.png");
     background-repeat: no-repeat;
     background-position: -40px -10px; 
+}
+
+.bda-dark #bda-qem{
+    border-bottom: rgba(0,0,0,0) !important;
+    background: rgba(0,0,0,0) !important; 
+}
+
+.bda-dark #bda-qem button {
+    background: rgba(148, 185, 212, 0.6);
+
+}
+
+.bda-dark #bda-qem button:hover{
+    background: rgba(148, 185, 212, 1);
+}
+
+#bda-qem-twitch, #bda-qem-emojis{
+    border-radius: 0px 0px 0px 0px !important;
+
+}
+
+.bda-dark #bda-qem button.active {
+ background: rgba(255, 247, 25, 1);
+ color: black;
+}
+
+ .bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container, .bda-dark .emoji-picker, .bda-dark .emojiPicker-3m1S-j{
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 0px 0px 0px 0px !important;
+    border: none !important;
+ }
+
+ .bda-dark .emojiPicker-3m1S-j .header-1nkwgG .search-bar{
+    background: none !important;
+ }
+
+ .search-bar.search-bar-light .search-bar-inner{
+    background: rgba(142, 142, 142, 0.2);
+    border: none !important;
+    border-radius: 0px 0px 0px 0px !important;
+
+ }
+
+ .bda-dark .emoji-picker .category, .bda-dark .emojiPicker-3m1S-j .category-2U57w6 {
+    background-image: url("https://i.imgur.com/elChOhu.png");
+    background-color: rgba(var(--blue1), 0.2);
+    background-repeat: no-repeat;
+    background-position: -50px -10px; 
+ }
+
+ .emojiPicker-3m1S-j .stickyHeader-1SS0JU{
+    background: rgba(0, 0, 0, 0.3);
+ }
+
+ /*home icone*/
+ .guilds-wrapper .guilds .home-icon {
+    background-image: url(https://www.stormshield.one/assets/icon-b6cb883969e585f48ff8b0682a917d465a5c21fb5e9236186fd3de9c4c504943.png); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+    height: 50px; 
+    width: 50px; 
+    transition: all  .3s ease-in-out;
+}
+.guilds-wrapper .guilds .home-icon:hover {
+    background-image: url(https://www.stormshield.one/assets/icon-b6cb883969e585f48ff8b0682a917d465a5c21fb5e9236186fd3de9c4c504943.png); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+    height: 50px; 
+    width: 50px; 
+}
+.guilds .home-icon defs,
+.guilds .home-icon g {
+  display: none;
 }
