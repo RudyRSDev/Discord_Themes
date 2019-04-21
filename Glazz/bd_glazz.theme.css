@@ -9,10 +9,10 @@
     --bg-homeButton: url(https://i.imgur.com/VLG1rCj.png);
     --text-primary: #fff;
     --text-secondary: #ccc;
-    --accent-color: #74E042;
+    --accent-color: rgb(99, 209, 47);
     --accent-hover: #D5FFC1; 
-    --transparency-color: 35, 35, 35; 
-    --transparency-alpha: 0.925; 
+    --transparency-color: 0, 0, 0; 
+    --transparency-alpha: 0.75; 
     --notification-borderSize: 3px; 
     --opacity-dimmed: .5; 
 }
@@ -623,7 +623,7 @@ body {
     transition-timing-function: ease-in;
     transition: .5s;
 }
-
+/*
 [class*=member] [class*=status], [class*=channel] [class*=status] {
 border-radius: 5px;
 background: transparent;
@@ -658,4 +658,4 @@ background: transparent;
 [class*=members] [class*=content]{flex-direction:row-reverse}
 [class*=members] [class*=avatarWrapper]{margin-right:0;left:0}
 [class*=members] [class*=memberInner]{width:160px;margin-right:10px}
-#app-mount [class*=members] [class*=typing]{left:10px}
+#app-mount [class*=members] [class*=typing]{left:10px}*/
