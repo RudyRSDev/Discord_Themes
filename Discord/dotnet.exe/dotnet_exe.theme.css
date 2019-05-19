@@ -19,7 +19,8 @@
     --edges: 1px !important;
     --aero: 0.55;
     --icon_home: url();
-    --color_border: linear-gradient(180deg, rgba(27,0,46,1) 0%, rgba(89,7,108,1) 25%, rgba(9,126,0,1) 75%, rgba(2,45,0,1) 100%);
+    /*--color_border: linear-gradient(180deg, rgba(27,0,46,1) 0%, rgba(89,7,108,1) 25%, rgba(9,126,0,1) 75%, rgba(2,45,0,1) 100%);*/
+    --color_border: linear-gradient(0deg, rgba(242,98,254,1) 0%, rgba(144,0,148,1) 100%);
     --anim_speed_1: 2s;
     --anim_speed_2: .5s;
     --border_req: 1 1 1 1 stretch;
@@ -183,17 +184,19 @@ body::before {
 /* ---===[ Guilds ]===--- */
 
 .wrapper-1Rf91z {
-    margin: 5px  15px ;
+    margin: 10px 5px ;
     background-color: var(--bg_color) !important;
     border-width: 3px;
     border-style: solid;
     border-image: var(--color_border) var(--border_req);
+    box-shadow: 0px 0px 15px 1px rgb(234, 0, 255);
 }
+
 
 /* ---===[ Channels ]===--- */
 
 .channels-Ie2l6A {
-    margin: 5px 15px 5px 0px ;
+    margin: 10px 15px 10px 10px ;
     background-color: var(--bg_color) !important;
     border-width: 3px;
     border-style: solid;
@@ -202,6 +205,7 @@ body::before {
     transition-timing-function: ease-in;
     transition: var(--anim_speed_1);
     overflow: hidden;
+    box-shadow: 0px 0px 15px 1px rgb(234, 0, 255);
 }
 
 .container-PNkimc{
@@ -259,12 +263,13 @@ body::before {
 
 .chat-3bRxxu,
 .noChannel-Z1DQK7 {
-    margin: 5px 15px 5px 0px;
-	border-radius: 0px;
+    margin: 10px 15px 10px 0px;
+	  border-radius: 0px;
     background-color: var(--bg_color) !important;
     border-width: 3px;
     border-style: solid;
     border-image: var(--color_border) var(--border_req);
+    box-shadow: 0px 0px 15px 1px rgb(234, 0, 255);
 }
 
 .chat-3bRxxu .aka-1mqp34,
@@ -299,3 +304,108 @@ body::before {
 .theme-dark .members-1998pB{
     background: none !important;
 }
+
+
+/* ---===[ Badges ]===--- */
+
+
+.avatar-17mtNa:hover {
+    opacity: 1;
+  }
+  
+  .chat-3bRxxu>.content-yTz4x3 .messages-3amgkR .containerCozy-jafyvG {
+    overflow: visible;
+  }
+  
+  .large-3ChYtB:not(.wrapper-2F3Zv8)::before {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 13px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: BMTicons;
+    pointer-events: none;
+    display: inline-block !important;
+    z-index: 1;
+  }
+  
+  .large-3ChYtB:not(.wrapper-2F3Zv8):hover::before {
+    font-family: Whitney;
+    background-color: #000;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 6px 10px;
+    border-radius: 3px;
+    font-size: 13px;
+    z-index: 3000000;
+    display: block;
+    position: absolute;
+    pointer-events: none;
+    color: #fff;
+    width: auto;
+    opacity: 1;
+    box-sizing: border-box;
+    white-space: nowrap;
+    right: unset;
+    left: calc(100% - 13px);
+    bottom: -6px;
+  }
+  
+  .guild-settings-audit-logs .large-3ChYtB:not(.wrapper-2F3Zv8)::before,
+  .guild-settings-audit-logs .large-3ChYtB:not(.wrapper-2F3Zv8)::after,
+  .standardSidebarView-3F1I7i .large-3ChYtB:not(.wrapper-2F3Zv8)::before,
+  .standardSidebarView-3F1I7i .large-3ChYtB:not(.wrapper-2F3Zv8)::after,
+  .inner-1JeGVc .large-3ChYtB:not(.wrapper-2F3Zv8)::before,
+  .activityFeed-1C0EmJ .large-3ChYtB:not(.wrapper-2F3Zv8)::before{
+    display: none !important;
+  }
+  
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="111712735179341824"]::before {
+    content: '';
+    color: transparent;
+    height: 15px;
+    width: 15px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    bottom: -8px;
+    right: -8px;
+    pointer-events: none;
+    filter: drop-shadow(0 0 2px var(--color_secondary)) drop-shadow(0 0 2px var(--secondary-color)) drop-shadow(0 0 2px var(--color_secondary))
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="111712735179341824"]::before {
+    background-image: url(https://i.imgur.com/F34rRx6.png);
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="111712735179341824"]:hover::before {
+    transform: none;
+    background-size: cover;
+    background-position: center;
+    padding: 6px 10px;
+    height: auto;
+    width: auto;
+    box-sizing: border-box;
+    white-space: nowrap;
+    right: unset;
+    left: calc(100% - 13px);
+    bottom: -6px;
+    font-weight: 700;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    filter: none;
+    display: block;
+  }
+
+  .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="111712735179341824"]:hover::before {
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="111712735179341824"]:hover::before {
+    content: "Theme Creator";
+    color: #0aff0a;
+    background-image: url(https://media.giphy.com/media/3ohzdZO0nAL1H2LdMA/giphy.gif);
+  }
+  
