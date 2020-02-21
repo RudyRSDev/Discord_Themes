@@ -1,0 +1,40 @@
+/**
+ * @name Fira Code Block
+ * @author RudySPG#1337
+ * @version 1.0.0
+ * @description Replaces Discord Code Block Font with Fira Code by Nikita Prokopov
+ * @source https://github.com/RudySPG
+ * @website https://www.spgamers.xyz
+*/
+/*
+
+/*
+------======[CREDIT]======------
+
+Font Creator : Nikita Prokopov
+Twitter : https://twitter.com/nikitonsky
+Source : https://github.com/tonsky/FiraCode
+*/
+
+
+/*---===[IMPORT FONT]===---*/
+
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.207/distr/fira_code.css);
+
+code {
+  font-family: 'Fira Code', monospace;
+}
+
+@supports (font-variation-settings: normal) {
+  code {
+    font-family: 'Fira Code VF', monospace; 
+  }
+}
+
+/*---===[CODE BLOCK]===---*/
+
+.markup-2BOw-j code {
+  font-family: Fira Code !important;
+  font-size: 14px !important;
+  letter-spacing: 0.55px !important;
+}
