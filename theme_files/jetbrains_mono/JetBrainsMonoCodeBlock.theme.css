@@ -1,0 +1,40 @@
+/**
+ * @name JetBrains Mono Code Block
+ * @author Apexmodder#0001 & RudySPG#1337
+ * @version 1.0.0
+ * @description Replaces Discord Code Block Font with Jetbrains Mono by JetBrains
+ * @source https://github.com/ApexModder/Discord_Themes/blob/master/theme_files/jetbrains_mono/JetBrainsMonoCodeBlock.theme.css
+ * @website https://www.spgamers.xyz
+*/
+/*
+
+/*
+------======[CREDIT]======------
+
+Font Creator : JetBrains
+Twitter : https://twitter.com/jetbrains
+Source : https://github.com/JetBrains/JetBrainsMono
+*/
+
+
+/*---===[IMPORT FONT]===---*/
+
+@font-face{
+	font-family: 'JetBrains Mono';
+	src: url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/web/JetBrainsMono-Regular.eot') format('embedded-opentype'),
+		 url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/web/JetBrainsMono-Regular.woff2') format('woff2'),
+		 url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/web/JetBrainsMono-Regular.woff') format('woff'),
+		 url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/ttf/JetBrainsMono-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*---===[CODE BLOCK]===---*/
+
+.markup-2BOw-j code {
+	-webkit-font-feature-settings: 'liga' on, 'calt' on;
+	-webkit-font-smoothing: antialiased;
+	font-feature-settings: 'liga' on, 'calt' on;
+	text-rendering: optimizeLegibility;
+	font-family: 'JetBrains Mono';
+}
