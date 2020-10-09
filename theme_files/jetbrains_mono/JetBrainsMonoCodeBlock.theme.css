@@ -1,7 +1,7 @@
 /**
  * @name JetBrains Mono Code Block
- * @author Apexmodder#0001 & RudySPG#1337
- * @version 1.0.0
+ * @author ApexModder#0001 & RudySPG#1337
+ * @version 1.0.1
  * @description Replaces Discord Code Block Font with Jetbrains Mono by JetBrains
  * @source https://github.com/ApexModder/Discord_Themes/blob/master/theme_files/jetbrains_mono/JetBrainsMonoCodeBlock.theme.css
  * @website https://www.spgamers.xyz
@@ -32,9 +32,21 @@ Source : https://github.com/JetBrains/JetBrainsMono
 /*---===[CODE BLOCK]===---*/
 
 .markup-2BOw-j code {
-	-webkit-font-feature-settings: 'liga' on, 'calt' on;
+	/*
+		Font Ligatures
+			liga - Replaces (by default) sequence of characters with a single ligature glyph
+			calt - Applies a second substitution feature based on a match of a character pattern within a context of surrounding patterns
+			zero - Replaces 0 figure with slashed 0
+	*/
+	-webkit-font-feature-settings: 'liga', 'calt', 'zero';
+	font-feature-settings: 'liga', 'calt', 'zero';
+
+	/* Font */
 	-webkit-font-smoothing: antialiased;
-	font-feature-settings: 'liga' on, 'calt' on;
 	text-rendering: optimizeLegibility;
 	font-family: 'JetBrains Mono';
+
+	/* Recommended font size & spacing from JB site */
+	font-size: 13;
+	line-height: 1.2;
 }
